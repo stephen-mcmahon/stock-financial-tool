@@ -70,3 +70,20 @@ button[type="submit"]:hover {
 #financial-table th {
     background-color: #f0f0f0;
 }
+#financial-table {
+    position: relative;
+}
+
+#financial-table th:first-child {
+    position: sticky;
+    left: 0;
+    background-color: #f0f0f0;
+    z-index: 1;
+}
+
+#financial-table td:first-child {
+    position: sticky;
+    left: 0;
+    background-color: #fff;
+    z-index: 0;
+}
